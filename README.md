@@ -69,9 +69,9 @@ Typical components across projects include:
 
 <div align="center">
 
-🕹 *Built with code, coffee, and stubborn debugging.*
+🕹 *Built with code, creativity, and coffee.*
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FF4FA3&height=90&section=footer&text=GAME%20OVER&fontSize=24&fontColor=ffffff"/>
 
 </div>
-For **Godot projects**:
+
