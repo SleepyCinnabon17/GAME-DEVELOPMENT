@@ -1,0 +1,1387 @@
+[gd_scene load_steps=93 format=3 uid="uid://ctfg7pu8hws8i"]
+
+[ext_resource type="Script" uid="uid://dadyeuh588tmb" path="res://Scripts/Changing_Room.gd" id="1_1udem"]
+[ext_resource type="Texture2D" uid="uid://bfiypn2gwtuwi" path="res://Buttons/background.png" id="2_7u32u"]
+[ext_resource type="Texture2D" uid="uid://bmwb8af5j6h3n" path="res://Buttons/cornerlace.png" id="2_atcdv"]
+[ext_resource type="Texture2D" uid="uid://wrv1ot1qnei1" path="res://Clothes/Base.png" id="4_atcdv"]
+[ext_resource type="Texture2D" uid="uid://dxoepw0ankysa" path="res://Buttons/dressingroom.png" id="4_kd4l7"]
+[ext_resource type="Texture2D" uid="uid://1yo3gnf71v3r" path="res://Clothes/Body base.png" id="5_3u120"]
+[ext_resource type="Script" uid="uid://dgkc2x3wmd007" path="res://Scripts/base.gd" id="5_kd4l7"]
+[ext_resource type="Texture2D" uid="uid://ypexepjfj721" path="res://Clothes/Base_Alt1.png" id="6_w1khb"]
+[ext_resource type="Texture2D" uid="uid://ct74pj70cbvdu" path="res://Clothes/Base_Alt2.png" id="7_kjxd6"]
+[ext_resource type="Texture2D" uid="uid://cem0otsbqogl5" path="res://Clothes/Base_Alt3.png" id="8_u6njr"]
+[ext_resource type="Script" uid="uid://bwbggae4va477" path="res://Scripts/Draggable.gd" id="10_dio3r"]
+[ext_resource type="Texture2D" uid="uid://5425cd8fv16q" path="res://Clothes/Bob cut.png" id="11_3u120"]
+[ext_resource type="Texture2D" uid="uid://6yxg1jsi03mj" path="res://Clothes/blonde hair.png" id="13_4ni3n"]
+[ext_resource type="Texture2D" uid="uid://cl62xjxuu68hr" path="res://Clothes/ponytail.png" id="13_52naj"]
+[ext_resource type="Texture2D" uid="uid://ck8lhi8q6l1w7" path="res://Clothes/pigtails.png" id="15_gievx"]
+[ext_resource type="Texture2D" uid="uid://bvgtedg77p5cq" path="res://Clothes/face 1.png" id="19_rirpw"]
+[ext_resource type="Texture2D" uid="uid://cbpst7c24bulv" path="res://Clothes/face 2.png" id="20_v6bjr"]
+[ext_resource type="Texture2D" uid="uid://dh27tt3li15fp" path="res://Clothes/lips 2.png" id="21_h2rw8"]
+[ext_resource type="Texture2D" uid="uid://c3ml5e4ohq2st" path="res://Clothes/face 3.png" id="22_ulp4k"]
+[ext_resource type="Texture2D" uid="uid://hdht22awt5cy" path="res://Clothes/Glasses_2.png" id="22_v6bjr"]
+[ext_resource type="Texture2D" uid="uid://nk58x5di0boe" path="res://Clothes/eyes-removebg-preview.png" id="23_oufrg"]
+[ext_resource type="BitMap" uid="uid://4citev6c3m6j" path="res://Clothes/Dress_1_mask.png" id="23_xtp2r"]
+[ext_resource type="Texture2D" uid="uid://drfabukm2kayu" path="res://Clothes/sk_2.png" id="24_dio3r"]
+[ext_resource type="Texture2D" uid="uid://cbkn0vg8j5qao" path="res://Clothes/รูปปากยิ้มปาก_PNG___สีชมพู__ซู่ลิป__ทาสีด้วยมือภาพ_PNG_และ_PSD_สำหรับดาวน์โหลดฟรี-removebg-preview.png" id="24_rirpw"]
+[ext_resource type="Texture2D" uid="uid://1rn70nxeksqw" path="res://Clothes/Clip_1.png" id="25_srble"]
+[ext_resource type="Texture2D" uid="uid://dt0it8oksmm2q" path="res://Clothes/download__7_-removebg-preview.png" id="26_2680k"]
+[ext_resource type="Texture2D" uid="uid://dmqux4urqo1rr" path="res://Clothes/download__8_-removebg-preview.png" id="27_oufrg"]
+[ext_resource type="Texture2D" uid="uid://dihpuku7m625n" path="res://Clothes/white corset.png" id="28_rirpw"]
+[ext_resource type="BitMap" uid="uid://blr52ccse1lxp" path="res://Clothes/Bra_01_Mask.png" id="29_nw24k"]
+[ext_resource type="Texture2D" uid="uid://cjew6vuub3n5m" path="res://Clothes/purple_dress2-removebg-preview.png" id="29_v6bjr"]
+[ext_resource type="Texture2D" uid="uid://ducpc2g8hsjsu" path="res://Clothes/Backpack.png" id="30_74xio"]
+[ext_resource type="Texture2D" uid="uid://cjvmdvqa2itu5" path="res://Clothes/winter dress.png" id="31_ulp4k"]
+[ext_resource type="Texture2D" uid="uid://d1i807n42ysbo" path="res://Clothes/Solid_Color_Pleated_Strapless_Mermaid_Hem_Maxi_Dress-removebg-preview.png" id="32_6yyi6"]
+[ext_resource type="Texture2D" uid="uid://n1juo603woeb" path="res://Clothes/Panties_1.png" id="33_ghq6n"]
+[ext_resource type="Texture2D" uid="uid://cn6cxr612fa46" path="res://Clothes/white skirt.png" id="33_srble"]
+[ext_resource type="Texture2D" uid="uid://bcrq34lpn75pj" path="res://Clothes/shorts.png" id="34_ixeuj"]
+[ext_resource type="BitMap" uid="uid://bap3ottgwnso4" path="res://Clothes/Panties_1_Mask.png" id="34_x5kmx"]
+[ext_resource type="Texture2D" uid="uid://c0b7w3vb8ocvj" path="res://Clothes/SHEIN_MOD_Women_s_Solid_Color_Ruffle_Trimmed_Hem_A-Line_SkirtI_discovered_amazing_products_on_SHEIN_com__come_check_them_out_-removebg-preview (1).png" id="35_6a235"]
+[ext_resource type="Texture2D" uid="uid://driptxeya748v" path="res://Clothes/Panties_2.png" id="35_mitl8"]
+[ext_resource type="BitMap" uid="uid://bwyokqwn30mgi" path="res://Clothes/Panties_2_Mask.png" id="36_cph7k"]
+[ext_resource type="Texture2D" uid="uid://dqichar0nego3" path="res://Clothes/skirt brown.png" id="36_mdgrj"]
+[ext_resource type="Texture2D" uid="uid://dv8a6m807qy1a" path="res://Clothes/Panties_3.png" id="37_jyovc"]
+[ext_resource type="Texture2D" uid="uid://c7j3socxjs3tl" path="res://Clothes/black shoes.png" id="37_rirpw"]
+[ext_resource type="Texture2D" uid="uid://c4vaal604fjls" path="res://Clothes/download__6_-removebg-preview.png" id="38_74xio"]
+[ext_resource type="Texture2D" uid="uid://cfwrnmsfmmc5m" path="res://Clothes/Panties_5.png" id="38_npqay"]
+[ext_resource type="Texture2D" uid="uid://c2j72odrul1qb" path="res://Clothes/red shoes.png" id="38_v6bjr"]
+[ext_resource type="Texture2D" uid="uid://cmnuxdpp06o7h" path="res://Clothes/Panties_6.png" id="39_bsivh"]
+[ext_resource type="Texture2D" uid="uid://dnyggm0mxwp0o" path="res://Clothes/Поговорим_об_эскизах_-removebg-preview.png" id="39_kod58"]
+[ext_resource type="Texture2D" uid="uid://ce6nncsfoif4j" path="res://Clothes/pink shoes.png" id="39_ulp4k"]
+[ext_resource type="BitMap" uid="uid://by0ya66tc5vsm" path="res://Clothes/Body_tattoos_Mask.png" id="41_15ph2"]
+[ext_resource type="Texture2D" uid="uid://dwodn21rqwn8k" path="res://Clothes/download__6_-removebg-preview (1).png" id="41_k1enh"]
+[ext_resource type="ButtonGroup" uid="uid://b4udoslqxt6rt" path="res://Resources/TabButtons.tres" id="42_5ytwd"]
+[ext_resource type="Texture2D" uid="uid://7j073dx8f0c7" path="res://Clothes/bow.png" id="42_ghq6n"]
+[ext_resource type="Texture2D" uid="uid://72d6421pqmkj" path="res://Buttons/Hair_B_ToggleOFF.png" id="43_cwccv"]
+[ext_resource type="Texture2D" uid="uid://djgcpp38nwb8p" path="res://Buttons/Hair_B_ToggleON.png" id="44_c37p0"]
+[ext_resource type="Texture2D" uid="uid://cw3hyg3afiayk" path="res://Clothes/bouquet.png" id="45_6yyi6"]
+[ext_resource type="Script" uid="uid://ngpc2pcvjuty" path="res://Scripts/Tab_Button.gd" id="45_884tb"]
+[ext_resource type="Texture2D" uid="uid://bcu2ypbe4yvy6" path="res://Buttons/Face_B_ToggleOFF.png" id="46_odqnr"]
+[ext_resource type="Texture2D" uid="uid://bw7q1suk1bjja" path="res://Buttons/Face_B_ToggleON.png" id="47_nuex8"]
+[ext_resource type="Texture2D" uid="uid://ut528wuve8kd" path="res://Clothes/tattoo.png" id="47_srble"]
+[ext_resource type="Texture2D" uid="uid://bx8nn0270ltab" path="res://Clothes/coffee.png" id="48_ixeuj"]
+[ext_resource type="Texture2D" uid="uid://vgkv23ggl8t2" path="res://Buttons/Tops_B_ToggleOFF.png" id="48_ln4hr"]
+[ext_resource type="Texture2D" uid="uid://nelp22hq005y" path="res://Clothes/pantsk_01.png" id="49_60fie"]
+[ext_resource type="Texture2D" uid="uid://c48ooihoc16x" path="res://Buttons/Tops_B_ToggleON.png" id="49_ief8n"]
+[ext_resource type="Texture2D" uid="uid://cnqfep4120qwg" path="res://Buttons/OnePiece_B_ToggleOFF.png" id="50_p8jhe"]
+[ext_resource type="Texture2D" uid="uid://dua04s4v1v53h" path="res://Clothes/top_01.png" id="50_xtp2r"]
+[ext_resource type="Texture2D" uid="uid://bmmtleg1px343" path="res://Buttons/OnePiece_B_ToggleON.png" id="51_l7yx8"]
+[ext_resource type="Texture2D" uid="uid://cnp7dkaxq7wmi" path="res://Buttons/Skirts_B_ToggleOFF.png" id="52_1qwop"]
+[ext_resource type="Texture2D" uid="uid://dt2gvojrvg8dw" path="res://Buttons/Skirts_B_ToggleON.png" id="53_bvj04"]
+[ext_resource type="Texture2D" uid="uid://cpnoh6hsbctea" path="res://Buttons/Feet_B_ToggleOFF.png" id="54_mph4k"]
+[ext_resource type="Texture2D" uid="uid://d2wraq6sdvyu4" path="res://Buttons/Feet_B_ToggleON.png" id="55_gh7id"]
+[ext_resource type="Texture2D" uid="uid://ddbxltjie88eq" path="res://Clothes/purse.png" id="56_6a235"]
+[ext_resource type="Texture2D" uid="uid://bl0psqhhk013n" path="res://Buttons/Accessories_B_ToggleOFF.png" id="56_41xn0"]
+[ext_resource type="Texture2D" uid="uid://dhs7j3vu3bng4" path="res://Buttons/Accessories_B_ToggleON.png" id="57_ufe7b"]
+[ext_resource type="Texture2D" uid="uid://cr8rg62aa4tt4" path="res://Buttons/Other_B_ToggleOFF.png" id="58_oheuj"]
+[ext_resource type="Texture2D" uid="uid://wux6t2tkk52s" path="res://Buttons/Other_B_ToggleON.png" id="59_m06to"]
+[ext_resource type="Texture2D" uid="uid://didgrkcl5nloc" path="res://Buttons/Body_B_ToggleOFF.png" id="60_jhigo"]
+[ext_resource type="Texture2D" uid="uid://de3md317yqsmp" path="res://Buttons/Body_B_ToggleON.png" id="61_s86ft"]
+[ext_resource type="Texture2D" uid="uid://c5suuc4xcq1o7" path="res://Buttons/Reset_B_ToggleOFF.png" id="62_11qhb"]
+[ext_resource type="Texture2D" uid="uid://bwpqpu3owahha" path="res://Buttons/Reset_B_ToggleON.png" id="63_ruohe"]
+[ext_resource type="Texture2D" uid="uid://bh4p0q6nphllb" path="res://Buttons/CleanUp_B_ToggleOFF.png" id="64_kep46"]
+[ext_resource type="Texture2D" uid="uid://rclyav4lidyd" path="res://Buttons/CleanUp_B_ToggleON.png" id="65_h55vj"]
+[ext_resource type="Texture2D" uid="uid://bdi7v5dbie7pp" path="res://Clothes/Shorts_1.png" id="66_35dlk"]
+[ext_resource type="Texture2D" uid="uid://bj053ikwygn8b" path="res://Buttons/Download_B_ToggleOFF.webp" id="70_60fie"]
+[ext_resource type="Texture2D" uid="uid://dcq1vn5yrm3lp" path="res://Buttons/HideUI_B_ToggleOFF.webp" id="70_i0gq6"]
+[ext_resource type="Texture2D" uid="uid://bqu7w3wn0pdl2" path="res://Buttons/HideUI_B_ToggleON.webp" id="71_dio3r"]
+[ext_resource type="Texture2D" uid="uid://bqoi8ywvejurg" path="res://Buttons/Download_B_ToggleON.webp" id="71_xtp2r"]
+[ext_resource type="Texture2D" uid="uid://bkx03f2e737sq" path="res://Buttons/theme_81x25.png" id="86_6yyi6"]
+[ext_resource type="Texture2D" uid="uid://d1gx0cdvithda" path="res://Buttons/theme on.png" id="87_srble"]
+[ext_resource type="Script" uid="uid://c2u0lhl6c7vmh" path="res://Scenes/theme_manager.gd" id="88_v6bjr"]
+[ext_resource type="Texture2D" uid="uid://dnm1veag7rjwy" path="res://Buttons/Heart score.png" id="91_srble"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_3u120"]
+
+[node name="Control" type="Control" node_paths=PackedStringArray("base", "ScreenshotRect")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_1udem")
+base = NodePath("Base")
+ScreenshotRect = NodePath("ScreenshotRect")
+
+[node name="ScreenshotRect" type="ReferenceRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 22.0
+offset_top = 44.0
+offset_right = -779.0
+offset_bottom = -35.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="BgColor" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.597246, 0.795252, 0.970549, 1)
+
+[node name="BgColor2" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 543.0
+offset_top = 52.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0.952941)
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(639.75, 356.75)
+scale = Vector2(1.00039, 1.00208)
+texture = ExtResource("2_7u32u")
+
+[node name="Cornerlace" type="Sprite2D" parent="."]
+position = Vector2(1091, 656.00006)
+scale = Vector2(0.992188, 1.0731)
+texture = ExtResource("2_atcdv")
+
+[node name="Dressingroom" type="Sprite2D" parent="."]
+position = Vector2(641, 358)
+texture = ExtResource("4_kd4l7")
+
+[node name="Base" type="Sprite2D" parent="."]
+position = Vector2(296.5, 374.99997)
+scale = Vector2(2.0240383, 1.6831684)
+texture = ExtResource("5_3u120")
+script = ExtResource("5_kd4l7")
+base_variants = Array[Texture]([ExtResource("4_atcdv"), ExtResource("6_w1khb"), ExtResource("7_kjxd6"), ExtResource("8_u6njr")])
+
+[node name="Containers" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 48.0
+offset_right = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer_Hair" type="ScrollContainer" parent="Containers"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 32.0
+offset_top = 11.0
+offset_right = 32.0
+offset_bottom = 7.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 2
+mouse_filter = 0
+horizontal_scroll_mode = 0
+
+[node name="Hair_Panel" type="Panel" parent="Containers/ScrollContainer_Hair"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 1000)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="Hair_01" type="TextureButton" parent="Containers/ScrollContainer_Hair/Hair_Panel" groups=["Item"]]
+layout_mode = 0
+offset_left = 560.0
+offset_top = 11.0
+offset_right = 809.0
+offset_bottom = 183.0
+scale = Vector2(0.5, 0.5)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("11_3u120")
+script = ExtResource("10_dio3r")
+
+[node name="Hair_04" type="TextureButton" parent="Containers/ScrollContainer_Hair/Hair_Panel" groups=["Item"]]
+layout_mode = 0
+offset_left = 729.0
+offset_top = 148.0
+offset_right = 1304.0
+offset_bottom = 777.99994
+scale = Vector2(0.25, 0.25)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("13_52naj")
+script = ExtResource("10_dio3r")
+
+[node name="Hair_02" type="TextureButton" parent="Containers/ScrollContainer_Hair/Hair_Panel" groups=["Item"]]
+layout_mode = 0
+offset_left = 569.99994
+offset_top = 141.0
+offset_right = 781.99994
+offset_bottom = 487.0
+scale = Vector2(0.4, 0.4)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("13_4ni3n")
+script = ExtResource("10_dio3r")
+
+[node name="Hair_03" type="TextureButton" parent="Containers/ScrollContainer_Hair/Hair_Panel" groups=["Item"]]
+layout_mode = 0
+offset_left = 732.0
+offset_top = -2.0
+offset_right = 971.0
+offset_bottom = 290.0
+scale = Vector2(0.5, 0.5)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("15_gievx")
+script = ExtResource("10_dio3r")
+
+[node name="Shorts1" type="Sprite2D" parent="Containers/ScrollContainer_Hair"]
+visible = false
+position = Vector2(256, 338.00003)
+scale = Vector2(1.3428571, 1.5833335)
+texture = ExtResource("66_35dlk")
+
+[node name="Sk2" type="Sprite2D" parent="Containers/ScrollContainer_Hair"]
+visible = false
+position = Vector2(120, 463)
+texture = ExtResource("24_dio3r")
+
+[node name="Clip1" type="Sprite2D" parent="Containers/ScrollContainer_Hair"]
+visible = false
+position = Vector2(277.00003, 93)
+scale = Vector2(2.1666667, 2.3333333)
+texture = ExtResource("25_srble")
+
+[node name="ScrollContainer_Faces" type="ScrollContainer" parent="Containers"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 2
+mouse_filter = 0
+horizontal_scroll_mode = 0
+
+[node name="Faces_Panel" type="Panel" parent="Containers/ScrollContainer_Faces"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 1000)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="blue eyes" type="TextureButton" parent="Containers/ScrollContainer_Faces/Faces_Panel" groups=["Item"]]
+layout_mode = 0
+offset_left = 735.0
+offset_top = 21.0
+offset_right = 1148.0
+offset_bottom = 103.0
+scale = Vector2(0.49, 0.47)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("19_rirpw")
+script = ExtResource("10_dio3r")
+
+[node name="Blush_01" type="TextureButton" parent="Containers/ScrollContainer_Faces/Faces_Panel" groups=["Item"]]
+layout_mode = 0
+offset_left = 802.0
+offset_top = 80.0
+offset_right = 875.0
+offset_bottom = 160.0
+scale = Vector2(0.5, 0.5)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture_normal = ExtResource("20_v6bjr")
+script = ExtResource("10_dio3r")
+
+[node name="lips 2" type="TextureButton" parent="Containers/ScrollContainer_Faces/Faces_Panel" groups=["Item"]]
+layout_mode = 0
+offset_left = 661.0
+offset_top = 80.0
+offset_right = 1161.0
+offset_bottom = 580.0
+scale = Vector2(0.04, 0.04)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture_normal = ExtResource("21_h2rw8")
+script = ExtResource("10_dio3r")
+
+[node name="pink eyes" type="TextureButton" parent="Containers/ScrollContainer_Faces/Faces_Panel" groups=["Item"]]
+layout_mode = 0
+offset_left = 845.0
+offset_top = 17.0
+offset_right = 1345.0
+offset_bottom = 517.0
+scale = Vector2(0.5, 0.5)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("22_ulp4k")
+script = ExtResource("10_dio3r")
+
+[node name="crying eyes" type="TextureButton" parent="Containers/ScrollContainer_Faces/Faces_Panel" groups=["Item"]]
+layout_mode = 0
+offset_left = 616.0
+offset_top = 23.0
+offset_right = 1202.0
+offset_bottom = 401.0
+scale = Vector2(0.07, 0.07)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("23_oufrg")
+script = ExtResource("10_dio3r")
+
+[node name="lips" type="TextureButton" parent="Containers/ScrollContainer_Faces/Faces_Panel" groups=["Item"]]
+layout_mode = 0
+offset_left = 583.0
+offset_top = 77.0
+offset_right = 1083.0
+offset_bottom = 577.0
+scale = Vector2(0.07, 0.07)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("24_rirpw")
+script = ExtResource("10_dio3r")
+
+[node name="Backpack" type="Sprite2D" parent="Containers/ScrollContainer_Faces/Faces_Panel"]
+visible = false
+position = Vector2(261, 170)
+texture = ExtResource("30_74xio")
+
+[node name="Backpack2" type="Sprite2D" parent="Containers/ScrollContainer_Faces/Faces_Panel"]
+visible = false
+position = Vector2(264, 204)
+texture = ExtResource("30_74xio")
+
+[node name="ScrollContainer_Tops" type="ScrollContainer" parent="Containers"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 2
+mouse_filter = 0
+horizontal_scroll_mode = 0
+
+[node name="Tops_Panel" type="Panel" parent="Containers/ScrollContainer_Tops"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 1000)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="Dress_02" type="TextureButton" parent="Containers/ScrollContainer_Tops/Tops_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 860.0
+offset_top = 156.0
+offset_right = 1369.0
+offset_bottom = 646.0
+scale = Vector2(0.45, 0.3)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture_normal = ExtResource("26_2680k")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Pastel"])
+
+[node name="Dress_03" type="TextureButton" parent="Containers/ScrollContainer_Tops/Tops_Panel" groups=["Clothes", "Item"]]
+texture_filter = 1
+layout_mode = 0
+offset_left = 900.0
+offset_top = -7.0
+offset_right = 1350.0
+offset_bottom = 468.0
+scale = Vector2(0.7, 0.4)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture_normal = ExtResource("27_oufrg")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Summer"])
+
+[node name="top_01" type="TextureButton" parent="Containers/ScrollContainer_Tops/Tops_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 828.0
+offset_top = -17.0
+offset_right = 1203.0
+offset_bottom = 649.0
+scale = Vector2(0.29, 0.3)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("28_rirpw")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Trendy"])
+
+[node name="ScrollContainer_OnePieces" type="ScrollContainer" parent="Containers"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 2
+mouse_filter = 0
+horizontal_scroll_mode = 0
+
+[node name="OnePieces_Panel" type="Panel" parent="Containers/ScrollContainer_OnePieces"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 1000)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="purple dress" type="TextureButton" parent="Containers/ScrollContainer_OnePieces/OnePieces_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 663.0
+offset_top = 29.0
+offset_right = 1219.0
+offset_bottom = 633.0
+scale = Vector2(1.9, 1.5)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture_normal = ExtResource("29_v6bjr")
+texture_click_mask = ExtResource("23_xtp2r")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Pastel"])
+
+[node name="winter dress" type="TextureButton" parent="Containers/ScrollContainer_OnePieces/OnePieces_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 970.00006
+offset_top = -31.0
+offset_right = 1414.0
+offset_bottom = 531.0
+scale = Vector2(0.45, 0.45)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture_normal = ExtResource("31_ulp4k")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Summer"])
+
+[node name="red dress" type="TextureButton" parent="Containers/ScrollContainer_OnePieces/OnePieces_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 697.0
+offset_top = 8.0
+offset_right = 1130.0
+offset_bottom = 584.0
+scale = Vector2(0.81, 0.7)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture_normal = ExtResource("32_6yyi6")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Trendy"])
+
+[node name="ScrollContainer_Bottoms" type="ScrollContainer" parent="Containers"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 2
+mouse_filter = 0
+horizontal_scroll_mode = 0
+
+[node name="Bottoms_Panel" type="Panel" parent="Containers/ScrollContainer_Bottoms"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 1000)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="high skirt" type="TextureButton" parent="Containers/ScrollContainer_Bottoms/Bottoms_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 915.0
+offset_top = -60.0
+offset_right = 1149.0
+offset_bottom = 291.0
+scale = Vector2(0.75, 0.7)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "Headset
+
+"
+texture_normal = ExtResource("33_srble")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Summer"])
+
+[node name="Sk_02" type="TextureButton" parent="Containers/ScrollContainer_Bottoms/Bottoms_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 649.0
+offset_top = -30.0
+offset_right = 1096.0
+offset_bottom = 529.0
+scale = Vector2(0.45, 0.3)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("34_ixeuj")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Summer"])
+
+[node name="Sk_03" type="TextureButton" parent="Containers/ScrollContainer_Bottoms/Bottoms_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 855.0
+offset_top = 118.0
+offset_right = 1288.0
+offset_bottom = 694.0
+scale = Vector2(0.72, 0.7)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("35_6a235")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Pastel"])
+
+[node name="pantsk_01" type="TextureButton" parent="Containers/ScrollContainer_Bottoms/Bottoms_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 620.0
+offset_top = 198.0
+offset_right = 1062.0
+offset_bottom = 510.0
+scale = Vector2(0.7, 0.4)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("36_mdgrj")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Trendy"])
+
+[node name="ScrollContainer_Feet" type="ScrollContainer" parent="Containers"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 542.0
+offset_top = 9.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 2
+mouse_filter = 0
+horizontal_scroll_mode = 0
+
+[node name="Feet_Panel" type="Panel" parent="Containers/ScrollContainer_Feet"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 1000)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="Socks_01" type="TextureButton" parent="Containers/ScrollContainer_Feet/Feet_Panel" groups=["Clothes", "Item"]]
+top_level = true
+z_index = 1
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.690625
+anchor_top = -0.05
+anchor_right = 0.690625
+anchor_bottom = 0.09861111
+offset_left = -14.0
+offset_top = 176.0
+offset_right = 486.0
+offset_bottom = 676.0
+scale = Vector2(0.5, 0.4)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("37_rirpw")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Trendy"])
+metadata/_edit_use_anchors_ = true
+
+[node name="Socks_02" type="TextureButton" parent="Containers/ScrollContainer_Feet/Feet_Panel" groups=["Clothes", "Item"]]
+top_level = true
+z_index = 1
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.815625
+anchor_top = -0.02638889
+anchor_right = 0.8156251
+anchor_bottom = -0.02638889
+offset_left = -14.0
+offset_top = 176.0
+offset_right = 486.0
+offset_bottom = 676.0
+scale = Vector2(0.48, 0.4)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("38_v6bjr")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Summer"])
+metadata/_edit_use_anchors_ = true
+
+[node name="Socks_03" type="TextureButton" parent="Containers/ScrollContainer_Feet/Feet_Panel" groups=["Clothes", "Item"]]
+top_level = true
+z_index = 1
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.7632812
+anchor_top = 0.1125
+anchor_right = 0.7632812
+anchor_bottom = 0.1125
+offset_left = -14.0
+offset_top = 176.0
+offset_right = 486.0
+offset_bottom = 676.0
+scale = Vector2(0.45, 0.27)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("39_ulp4k")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Pastel"])
+metadata/_edit_use_anchors_ = true
+
+[node name="ScrollContainer_Accessories" type="ScrollContainer" parent="Containers"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 2
+mouse_filter = 0
+horizontal_scroll_mode = 0
+
+[node name="Accessories_Panel" type="Panel" parent="Containers/ScrollContainer_Accessories"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 1000)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="earring L" type="TextureButton" parent="Containers/ScrollContainer_Accessories/Accessories_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 813.99994
+offset_top = 42.000004
+offset_right = 1247.0
+offset_bottom = 619.0
+scale = Vector2(0.1, 0.1)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "Bandages
+"
+texture_normal = ExtResource("38_74xio")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Trendy"])
+
+[node name="Glasses_01" type="TextureButton" parent="Containers/ScrollContainer_Accessories/Accessories_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 817.0
+offset_top = 112.00001
+offset_right = 1316.0
+offset_bottom = 612.0
+scale = Vector2(0.11, 0.09)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("39_kod58")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Trendy"])
+
+[node name="Glasses_02" type="TextureButton" parent="Containers/ScrollContainer_Accessories/Accessories_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 966.0
+offset_top = 184.0
+offset_right = 1076.0
+offset_bottom = 208.0
+scale = Vector2(0.5, 0.5)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("22_v6bjr")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Summer"])
+
+[node name="Headset" type="TextureButton" parent="Containers/ScrollContainer_Accessories/Accessories_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 876.0
+offset_top = 169.00002
+offset_right = 1376.0
+offset_bottom = 669.0
+scale = Vector2(0.09, 0.09)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "Headset
+
+"
+texture_normal = ExtResource("41_k1enh")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Summer"])
+
+[node name="bow R" type="TextureButton" parent="Containers/ScrollContainer_Accessories/Accessories_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 973.0
+offset_top = 48.0
+offset_right = 1406.0
+offset_bottom = 625.0
+scale = Vector2(0.15, 0.15)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("42_ghq6n")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Pastel"])
+
+[node name="bow L" type="TextureButton" parent="Containers/ScrollContainer_Accessories/Accessories_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 917.0
+offset_top = 49.0
+offset_right = 1350.0
+offset_bottom = 626.0
+scale = Vector2(0.15, 0.15)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("42_ghq6n")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Pastel"])
+
+[node name="Earring R" type="TextureButton" parent="Containers/ScrollContainer_Accessories/Accessories_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 833.0
+offset_top = 41.000015
+offset_right = 1266.0
+offset_bottom = 618.0
+scale = Vector2(0.1, 0.1)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("38_74xio")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Trendy"])
+
+[node name="ScrollContainer_Other" type="ScrollContainer" parent="Containers"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+focus_mode = 2
+mouse_filter = 0
+horizontal_scroll_mode = 0
+
+[node name="Other_Panel" type="Panel" parent="Containers/ScrollContainer_Other"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 1000)
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+
+[node name="bouquet" type="TextureButton" parent="Containers/ScrollContainer_Other/Other_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 767.0
+offset_top = -2.0000153
+offset_right = 1287.0
+offset_bottom = 478.0
+rotation = 0.3926991
+scale = Vector2(0.2, 0.2)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture_normal = ExtResource("45_6yyi6")
+texture_click_mask = ExtResource("29_nw24k")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Pastel"])
+
+[node name="Backpack" type="TextureButton" parent="Containers/ScrollContainer_Other/Other_Panel" groups=["Item"]]
+visible = false
+layout_mode = 0
+offset_left = 972.0
+offset_top = 40.0
+offset_right = 1041.0
+offset_bottom = 97.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "Backpack"
+texture_normal = ExtResource("30_74xio")
+script = ExtResource("10_dio3r")
+
+[node name="tattoo" type="TextureButton" parent="Containers/ScrollContainer_Other/Other_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 962.0
+offset_top = 8.000005
+offset_right = 1464.0
+offset_bottom = 505.0
+scale = Vector2(0.1, 0.2)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("47_srble")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Trendy"])
+
+[node name="Hand_Pistol" type="TextureButton" parent="Containers/ScrollContainer_Other/Other_Panel" groups=["Clothes", "Item"]]
+layout_mode = 0
+offset_left = 1036.0
+offset_top = 12.000015
+offset_right = 1536.0
+offset_bottom = 512.0
+rotation = 0.1972222
+scale = Vector2(0.2, 0.15)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("48_ixeuj")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Summer"])
+
+[node name="misc" type="TextureButton" parent="Containers/ScrollContainer_Other/Other_Panel" groups=["Item"]]
+visible = false
+layout_mode = 0
+offset_left = 631.0
+offset_top = 148.0
+offset_right = 685.0
+offset_bottom = 189.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+
+"
+texture_normal = ExtResource("33_ghq6n")
+texture_click_mask = ExtResource("34_x5kmx")
+script = ExtResource("10_dio3r")
+
+[node name="misc2" type="TextureButton" parent="Containers/ScrollContainer_Other/Other_Panel" groups=["Item"]]
+visible = false
+layout_mode = 0
+offset_left = 606.0
+offset_top = 350.0
+offset_right = 672.0
+offset_bottom = 407.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+
+"
+texture_normal = ExtResource("35_mitl8")
+texture_click_mask = ExtResource("36_cph7k")
+script = ExtResource("10_dio3r")
+
+[node name="misc3" type="TextureButton" parent="Containers/ScrollContainer_Other/Other_Panel" groups=["Item"]]
+visible = false
+layout_mode = 0
+offset_left = 748.0
+offset_top = 15.0
+offset_right = 803.0
+offset_bottom = 134.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+
+"
+texture_normal = ExtResource("37_jyovc")
+script = ExtResource("10_dio3r")
+
+[node name="misc4" type="TextureButton" parent="Containers/ScrollContainer_Other/Other_Panel" groups=["Item"]]
+visible = false
+layout_mode = 0
+offset_left = 625.0
+offset_top = 258.0
+offset_right = 683.0
+offset_bottom = 290.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("38_npqay")
+script = ExtResource("10_dio3r")
+
+[node name="misc5" type="TextureButton" parent="Containers/ScrollContainer_Other/Other_Panel" groups=["Item"]]
+visible = false
+layout_mode = 0
+offset_left = 746.0
+offset_top = 175.0
+offset_right = 812.0
+offset_bottom = 212.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("39_bsivh")
+script = ExtResource("10_dio3r")
+
+[node name="purse" type="TextureButton" parent="Containers/ScrollContainer_Other/Other_Panel" groups=["Clothes", "Item"]]
+modulate = Color(1, 1, 1, 0.698039)
+layout_mode = 0
+offset_left = 861.0
+offset_top = 28.0
+offset_right = 1377.0
+offset_bottom = 512.0
+scale = Vector2(0.15, 0.15)
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "Tattoos
+"
+texture_normal = ExtResource("56_6a235")
+texture_click_mask = ExtResource("41_15ph2")
+script = ExtResource("10_dio3r")
+themes = Array[String](["Trendy"])
+
+[node name="BaseAlt3" type="Sprite2D" parent="Containers"]
+position = Vector2(-344, 493)
+texture = ExtResource("8_u6njr")
+
+[node name="pantsk_01" type="TextureButton" parent="." node_paths=PackedStringArray("optional_Panel") groups=["Item"]]
+visible = false
+layout_mode = 0
+offset_left = 594.0
+offset_top = 353.0
+offset_right = 743.0
+offset_bottom = 574.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("49_60fie")
+script = ExtResource("10_dio3r")
+optional_Panel = NodePath("../Containers/ScrollContainer_Bottoms/Bottoms_Panel")
+
+[node name="top_01" type="TextureButton" parent="." node_paths=PackedStringArray("optional_Panel") groups=["Item"]]
+visible = false
+layout_mode = 0
+offset_left = 854.0
+offset_top = 373.0
+offset_right = 943.0
+offset_bottom = 594.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+tooltip_text = "
+"
+texture_normal = ExtResource("50_xtp2r")
+script = ExtResource("10_dio3r")
+optional_Panel = NodePath("../Containers/ScrollContainer_Tops/Tops_Panel")
+
+[node name="Tabs" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -726.0
+offset_top = 16.0
+offset_right = -19.0
+offset_bottom = 42.0
+grow_horizontal = 0
+mouse_filter = 2
+alignment = 2
+
+[node name="Hair_Button" type="TextureButton" parent="Tabs" node_paths=PackedStringArray("MyScrollContainer")]
+layout_mode = 2
+toggle_mode = true
+button_pressed = true
+button_group = ExtResource("42_5ytwd")
+texture_normal = ExtResource("43_cwccv")
+texture_pressed = ExtResource("44_c37p0")
+script = ExtResource("45_884tb")
+MyScrollContainer = NodePath("../../Containers/ScrollContainer_Hair")
+
+[node name="Face_Button" type="TextureButton" parent="Tabs" node_paths=PackedStringArray("MyScrollContainer")]
+layout_mode = 2
+toggle_mode = true
+button_group = ExtResource("42_5ytwd")
+texture_normal = ExtResource("46_odqnr")
+texture_pressed = ExtResource("47_nuex8")
+script = ExtResource("45_884tb")
+MyScrollContainer = NodePath("../../Containers/ScrollContainer_Faces")
+
+[node name="Tops_Button" type="TextureButton" parent="Tabs" node_paths=PackedStringArray("MyScrollContainer")]
+layout_mode = 2
+toggle_mode = true
+button_group = ExtResource("42_5ytwd")
+texture_normal = ExtResource("48_ln4hr")
+texture_pressed = ExtResource("49_ief8n")
+script = ExtResource("45_884tb")
+MyScrollContainer = NodePath("../../Containers/ScrollContainer_Tops")
+
+[node name="OnePieces_Button" type="TextureButton" parent="Tabs" node_paths=PackedStringArray("MyScrollContainer")]
+layout_mode = 2
+toggle_mode = true
+button_group = ExtResource("42_5ytwd")
+texture_normal = ExtResource("50_p8jhe")
+texture_pressed = ExtResource("51_l7yx8")
+script = ExtResource("45_884tb")
+MyScrollContainer = NodePath("../../Containers/ScrollContainer_OnePieces")
+
+[node name="Bottoms_Button" type="TextureButton" parent="Tabs" node_paths=PackedStringArray("MyScrollContainer")]
+layout_mode = 2
+toggle_mode = true
+button_group = ExtResource("42_5ytwd")
+texture_normal = ExtResource("52_1qwop")
+texture_pressed = ExtResource("53_bvj04")
+script = ExtResource("45_884tb")
+MyScrollContainer = NodePath("../../Containers/ScrollContainer_Bottoms")
+
+[node name="Feet_Button" type="TextureButton" parent="Tabs" node_paths=PackedStringArray("MyScrollContainer")]
+layout_mode = 2
+toggle_mode = true
+button_group = ExtResource("42_5ytwd")
+texture_normal = ExtResource("54_mph4k")
+texture_pressed = ExtResource("55_gh7id")
+script = ExtResource("45_884tb")
+MyScrollContainer = NodePath("../../Containers/ScrollContainer_Feet")
+
+[node name="Accessories_Button" type="TextureButton" parent="Tabs" node_paths=PackedStringArray("MyScrollContainer")]
+layout_mode = 2
+toggle_mode = true
+button_group = ExtResource("42_5ytwd")
+texture_normal = ExtResource("56_41xn0")
+texture_pressed = ExtResource("57_ufe7b")
+script = ExtResource("45_884tb")
+MyScrollContainer = NodePath("../../Containers/ScrollContainer_Accessories")
+
+[node name="Other_Button" type="TextureButton" parent="Tabs" node_paths=PackedStringArray("MyScrollContainer")]
+layout_mode = 2
+toggle_mode = true
+button_group = ExtResource("42_5ytwd")
+texture_normal = ExtResource("58_oheuj")
+texture_pressed = ExtResource("59_m06to")
+script = ExtResource("45_884tb")
+MyScrollContainer = NodePath("../../Containers/ScrollContainer_Other")
+
+[node name="MenuButtons" type="HBoxContainer" parent="."]
+layout_mode = 1
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 470.0
+offset_bottom = 38.0
+
+[node name="HideUIButton" type="TextureButton" parent="MenuButtons"]
+layout_mode = 2
+tooltip_text = "Reset"
+toggle_mode = true
+texture_normal = ExtResource("70_i0gq6")
+texture_pressed = ExtResource("70_i0gq6")
+texture_hover = ExtResource("71_dio3r")
+
+[node name="DownloadButton" type="TextureButton" parent="MenuButtons"]
+layout_mode = 2
+tooltip_text = "download screenshot"
+texture_normal = ExtResource("70_60fie")
+texture_pressed = ExtResource("70_60fie")
+texture_hover = ExtResource("71_xtp2r")
+
+[node name="VSeparator" type="VSeparator" parent="MenuButtons"]
+layout_mode = 2
+theme_override_constants/separation = 20
+theme_override_styles/separator = SubResource("StyleBoxEmpty_3u120")
+
+[node name="ResetButton" type="TextureButton" parent="MenuButtons"]
+layout_mode = 2
+tooltip_text = "Reset"
+texture_normal = ExtResource("62_11qhb")
+texture_pressed = ExtResource("62_11qhb")
+texture_hover = ExtResource("63_ruohe")
+
+[node name="CleanUpButton" type="TextureButton" parent="MenuButtons"]
+layout_mode = 2
+tooltip_text = "Clean wardrobe"
+texture_normal = ExtResource("64_kep46")
+texture_pressed = ExtResource("64_kep46")
+texture_hover = ExtResource("65_h55vj")
+
+[node name="ThemeButton" type="TextureButton" parent="MenuButtons"]
+z_index = 20
+custom_minimum_size = Vector2(120, 55)
+layout_mode = 2
+size_flags_horizontal = 0
+tooltip_text = "Clean wardrobe"
+toggle_mode = true
+texture_normal = ExtResource("86_6yyi6")
+texture_pressed = ExtResource("86_6yyi6")
+texture_hover = ExtResource("87_srble")
+ignore_texture_size = true
+
+[node name="VSeparator2" type="VSeparator" parent="MenuButtons"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 20
+theme_override_styles/separator = SubResource("StyleBoxEmpty_3u120")
+
+[node name="BodyButton" type="TextureButton" parent="MenuButtons"]
+layout_mode = 2
+size_flags_horizontal = 8
+tooltip_text = "Clean wardrobe"
+texture_normal = ExtResource("60_jhigo")
+texture_pressed = ExtResource("60_jhigo")
+texture_hover = ExtResource("61_s86ft")
+
+[node name="ThemeLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.2875
+anchor_top = -0.072222225
+anchor_right = 0.2875
+anchor_bottom = -0.072222225
+offset_left = 5.0
+offset_top = 85.0
+offset_right = 83.0
+offset_bottom = 134.0
+theme_override_colors/font_color = Color(0.13333334, 0.1882353, 0.6862745, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0.6313726, 0)
+text = "Theme: —
+"
+metadata/_edit_use_anchors_ = true
+
+[node name="ThemeManager" type="Node" parent="."]
+script = ExtResource("88_v6bjr")
+
+[node name="ScoreHeart" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 415.0
+offset_top = 42.0
+offset_right = 915.0
+offset_bottom = 542.0
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("91_srble")
+stretch_mode = 5
+
+[node name="ScoreLabel" type="Label" parent="ScoreHeart"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.86
+anchor_top = 0.827
+anchor_right = 0.96666646
+anchor_bottom = 0.9733333
+offset_left = -250.00005
+offset_top = -253.5
+offset_right = -160.33328
+offset_bottom = -189.66666
+theme_override_colors/font_color = Color(0.00069389754, 0.0006938977, 0.0006938973, 1)
+theme_override_font_sizes/font_size = 100
+text = "0%"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="button_down" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_01" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_01" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_01" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_01" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_01" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_01" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_01" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_01" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_04" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_04" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_04" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_04" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_04" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_04" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_04" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_04" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_02" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_02" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_02" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_02" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_02" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_02" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_02" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_02" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_03" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_03" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_03" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_03" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_03" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_03" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Hair/Hair_Panel/Hair_03" to="Containers/ScrollContainer_Hair/Hair_Panel/Hair_03" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Faces/Faces_Panel/blue eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/blue eyes" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Faces/Faces_Panel/blue eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/blue eyes" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Faces/Faces_Panel/blue eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/blue eyes" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Faces/Faces_Panel/blue eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/blue eyes" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Faces/Faces_Panel/Blush_01" to="Containers/ScrollContainer_Faces/Faces_Panel/Blush_01" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Faces/Faces_Panel/Blush_01" to="Containers/ScrollContainer_Faces/Faces_Panel/Blush_01" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Faces/Faces_Panel/Blush_01" to="Containers/ScrollContainer_Faces/Faces_Panel/Blush_01" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Faces/Faces_Panel/Blush_01" to="Containers/ScrollContainer_Faces/Faces_Panel/Blush_01" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Faces/Faces_Panel/lips 2" to="Containers/ScrollContainer_Faces/Faces_Panel/lips 2" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Faces/Faces_Panel/lips 2" to="Containers/ScrollContainer_Faces/Faces_Panel/lips 2" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Faces/Faces_Panel/lips 2" to="Containers/ScrollContainer_Faces/Faces_Panel/lips 2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Faces/Faces_Panel/lips 2" to="Containers/ScrollContainer_Faces/Faces_Panel/lips 2" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Faces/Faces_Panel/pink eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/pink eyes" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Faces/Faces_Panel/pink eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/pink eyes" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Faces/Faces_Panel/pink eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/pink eyes" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Faces/Faces_Panel/pink eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/pink eyes" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Faces/Faces_Panel/crying eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/crying eyes" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Faces/Faces_Panel/crying eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/crying eyes" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Faces/Faces_Panel/crying eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/crying eyes" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Faces/Faces_Panel/crying eyes" to="Containers/ScrollContainer_Faces/Faces_Panel/crying eyes" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Faces/Faces_Panel/lips" to="Containers/ScrollContainer_Faces/Faces_Panel/lips" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Faces/Faces_Panel/lips" to="Containers/ScrollContainer_Faces/Faces_Panel/lips" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Faces/Faces_Panel/lips" to="Containers/ScrollContainer_Faces/Faces_Panel/lips" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Faces/Faces_Panel/lips" to="Containers/ScrollContainer_Faces/Faces_Panel/lips" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Tops/Tops_Panel/Dress_02" to="Containers/ScrollContainer_Tops/Tops_Panel/Dress_02" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Tops/Tops_Panel/Dress_02" to="Containers/ScrollContainer_Tops/Tops_Panel/Dress_02" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Tops/Tops_Panel/Dress_02" to="Containers/ScrollContainer_Tops/Tops_Panel/Dress_02" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Tops/Tops_Panel/Dress_02" to="Containers/ScrollContainer_Tops/Tops_Panel/Dress_02" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Tops/Tops_Panel/Dress_03" to="Containers/ScrollContainer_Tops/Tops_Panel/Dress_03" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Tops/Tops_Panel/Dress_03" to="Containers/ScrollContainer_Tops/Tops_Panel/Dress_03" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Tops/Tops_Panel/Dress_03" to="Containers/ScrollContainer_Tops/Tops_Panel/Dress_03" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Tops/Tops_Panel/Dress_03" to="Containers/ScrollContainer_Tops/Tops_Panel/Dress_03" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Tops/Tops_Panel/top_01" to="Containers/ScrollContainer_Tops/Tops_Panel/top_01" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Tops/Tops_Panel/top_01" to="Containers/ScrollContainer_Tops/Tops_Panel/top_01" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Tops/Tops_Panel/top_01" to="Containers/ScrollContainer_Tops/Tops_Panel/top_01" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Tops/Tops_Panel/top_01" to="Containers/ScrollContainer_Tops/Tops_Panel/top_01" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/purple dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/purple dress" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/purple dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/purple dress" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/purple dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/purple dress" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/purple dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/purple dress" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/winter dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/winter dress" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/winter dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/winter dress" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/winter dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/winter dress" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/winter dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/winter dress" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/red dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/red dress" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/red dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/red dress" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/red dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/red dress" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_OnePieces/OnePieces_Panel/red dress" to="Containers/ScrollContainer_OnePieces/OnePieces_Panel/red dress" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/high skirt" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/high skirt" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/high skirt" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/high skirt" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/high skirt" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/high skirt" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/high skirt" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/high skirt" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_02" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_02" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_02" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_02" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_02" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_02" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_02" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_02" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_03" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_03" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_03" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_03" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_03" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_03" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_03" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/Sk_03" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/pantsk_01" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/pantsk_01" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/pantsk_01" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/pantsk_01" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/pantsk_01" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/pantsk_01" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Bottoms/Bottoms_Panel/pantsk_01" to="Containers/ScrollContainer_Bottoms/Bottoms_Panel/pantsk_01" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_01" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_01" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_01" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_01" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_01" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_01" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_01" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_01" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_02" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_02" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_02" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_02" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_02" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_02" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_02" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_02" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_03" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_03" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_03" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_03" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_03" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_03" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Feet/Feet_Panel/Socks_03" to="Containers/ScrollContainer_Feet/Feet_Panel/Socks_03" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Accessories/Accessories_Panel/earring L" to="Containers/ScrollContainer_Accessories/Accessories_Panel/earring L" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Accessories/Accessories_Panel/earring L" to="Containers/ScrollContainer_Accessories/Accessories_Panel/earring L" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Accessories/Accessories_Panel/earring L" to="Containers/ScrollContainer_Accessories/Accessories_Panel/earring L" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Accessories/Accessories_Panel/earring L" to="Containers/ScrollContainer_Accessories/Accessories_Panel/earring L" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_01" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_01" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_01" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_01" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_01" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_01" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_01" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_01" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_02" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_02" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_02" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_02" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_02" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_02" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_02" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Glasses_02" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Headset" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Headset" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Headset" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Headset" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Headset" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Headset" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Headset" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Headset" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Accessories/Accessories_Panel/bow R" to="Containers/ScrollContainer_Accessories/Accessories_Panel/bow R" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Accessories/Accessories_Panel/bow R" to="Containers/ScrollContainer_Accessories/Accessories_Panel/bow R" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Accessories/Accessories_Panel/bow R" to="Containers/ScrollContainer_Accessories/Accessories_Panel/bow R" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Accessories/Accessories_Panel/bow R" to="Containers/ScrollContainer_Accessories/Accessories_Panel/bow R" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Accessories/Accessories_Panel/bow L" to="Containers/ScrollContainer_Accessories/Accessories_Panel/bow L" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Accessories/Accessories_Panel/bow L" to="Containers/ScrollContainer_Accessories/Accessories_Panel/bow L" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Accessories/Accessories_Panel/bow L" to="Containers/ScrollContainer_Accessories/Accessories_Panel/bow L" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Accessories/Accessories_Panel/bow L" to="Containers/ScrollContainer_Accessories/Accessories_Panel/bow L" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Earring R" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Earring R" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Earring R" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Earring R" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Earring R" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Earring R" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Accessories/Accessories_Panel/Earring R" to="Containers/ScrollContainer_Accessories/Accessories_Panel/Earring R" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Other/Other_Panel/bouquet" to="Containers/ScrollContainer_Other/Other_Panel/bouquet" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Other/Other_Panel/bouquet" to="Containers/ScrollContainer_Other/Other_Panel/bouquet" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Other/Other_Panel/bouquet" to="Containers/ScrollContainer_Other/Other_Panel/bouquet" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Other/Other_Panel/bouquet" to="Containers/ScrollContainer_Other/Other_Panel/bouquet" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Other/Other_Panel/Backpack" to="Containers/ScrollContainer_Other/Other_Panel/Backpack" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Other/Other_Panel/Backpack" to="Containers/ScrollContainer_Other/Other_Panel/Backpack" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Other/Other_Panel/Backpack" to="Containers/ScrollContainer_Other/Other_Panel/Backpack" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Other/Other_Panel/Backpack" to="Containers/ScrollContainer_Other/Other_Panel/Backpack" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Other/Other_Panel/tattoo" to="Containers/ScrollContainer_Other/Other_Panel/tattoo" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Other/Other_Panel/tattoo" to="Containers/ScrollContainer_Other/Other_Panel/tattoo" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Other/Other_Panel/tattoo" to="Containers/ScrollContainer_Other/Other_Panel/tattoo" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Other/Other_Panel/tattoo" to="Containers/ScrollContainer_Other/Other_Panel/tattoo" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Other/Other_Panel/Hand_Pistol" to="Containers/ScrollContainer_Other/Other_Panel/Hand_Pistol" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Other/Other_Panel/Hand_Pistol" to="Containers/ScrollContainer_Other/Other_Panel/Hand_Pistol" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Other/Other_Panel/Hand_Pistol" to="Containers/ScrollContainer_Other/Other_Panel/Hand_Pistol" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Other/Other_Panel/Hand_Pistol" to="Containers/ScrollContainer_Other/Other_Panel/Hand_Pistol" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Other/Other_Panel/misc" to="Containers/ScrollContainer_Other/Other_Panel/misc" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Other/Other_Panel/misc" to="Containers/ScrollContainer_Other/Other_Panel/misc" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Other/Other_Panel/misc" to="Containers/ScrollContainer_Other/Other_Panel/misc" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Other/Other_Panel/misc" to="Containers/ScrollContainer_Other/Other_Panel/misc" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Other/Other_Panel/misc2" to="Containers/ScrollContainer_Other/Other_Panel/misc2" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Other/Other_Panel/misc2" to="Containers/ScrollContainer_Other/Other_Panel/misc2" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Other/Other_Panel/misc2" to="Containers/ScrollContainer_Other/Other_Panel/misc2" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Other/Other_Panel/misc2" to="Containers/ScrollContainer_Other/Other_Panel/misc2" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Other/Other_Panel/misc3" to="Containers/ScrollContainer_Other/Other_Panel/misc3" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Other/Other_Panel/misc3" to="Containers/ScrollContainer_Other/Other_Panel/misc3" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Other/Other_Panel/misc3" to="Containers/ScrollContainer_Other/Other_Panel/misc3" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Other/Other_Panel/misc3" to="Containers/ScrollContainer_Other/Other_Panel/misc3" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Other/Other_Panel/misc4" to="Containers/ScrollContainer_Other/Other_Panel/misc4" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Other/Other_Panel/misc4" to="Containers/ScrollContainer_Other/Other_Panel/misc4" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Other/Other_Panel/misc4" to="Containers/ScrollContainer_Other/Other_Panel/misc4" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Other/Other_Panel/misc4" to="Containers/ScrollContainer_Other/Other_Panel/misc4" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Other/Other_Panel/misc5" to="Containers/ScrollContainer_Other/Other_Panel/misc5" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Other/Other_Panel/misc5" to="Containers/ScrollContainer_Other/Other_Panel/misc5" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Other/Other_Panel/misc5" to="Containers/ScrollContainer_Other/Other_Panel/misc5" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Other/Other_Panel/misc5" to="Containers/ScrollContainer_Other/Other_Panel/misc5" method="_on_mouse_exited"]
+[connection signal="button_down" from="Containers/ScrollContainer_Other/Other_Panel/purse" to="Containers/ScrollContainer_Other/Other_Panel/purse" method="_on_button_down"]
+[connection signal="button_up" from="Containers/ScrollContainer_Other/Other_Panel/purse" to="Containers/ScrollContainer_Other/Other_Panel/purse" method="_on_button_up"]
+[connection signal="mouse_entered" from="Containers/ScrollContainer_Other/Other_Panel/purse" to="Containers/ScrollContainer_Other/Other_Panel/purse" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Containers/ScrollContainer_Other/Other_Panel/purse" to="Containers/ScrollContainer_Other/Other_Panel/purse" method="_on_mouse_exited"]
+[connection signal="button_down" from="pantsk_01" to="pantsk_01" method="_on_button_down"]
+[connection signal="button_up" from="pantsk_01" to="pantsk_01" method="_on_button_up"]
+[connection signal="mouse_entered" from="pantsk_01" to="pantsk_01" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="pantsk_01" to="pantsk_01" method="_on_mouse_exited"]
+[connection signal="button_down" from="top_01" to="top_01" method="_on_button_down"]
+[connection signal="button_up" from="top_01" to="top_01" method="_on_button_up"]
+[connection signal="mouse_entered" from="top_01" to="top_01" method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="top_01" to="top_01" method="_on_mouse_exited"]
+[connection signal="toggled" from="MenuButtons/HideUIButton" to="." method="_on_hide_ui_button_toggled"]
+[connection signal="pressed" from="MenuButtons/DownloadButton" to="." method="_on_download_button_pressed"]
+[connection signal="pressed" from="MenuButtons/ResetButton" to="." method="_on_reset_button_pressed"]
+[connection signal="pressed" from="MenuButtons/CleanUpButton" to="." method="_on_clean_up_button_pressed"]
+[connection signal="pressed" from="MenuButtons/ThemeButton" to="." method="_on_theme_button_pressed"]
+[connection signal="pressed" from="MenuButtons/ThemeButton" to="." method="_on_clean_up_button_pressed"]
+[connection signal="pressed" from="MenuButtons/BodyButton" to="." method="_on_body_button_pressed"]
