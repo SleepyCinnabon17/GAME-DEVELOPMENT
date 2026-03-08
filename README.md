@@ -3,7 +3,9 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=FF4FA3&height=120&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=FF4FA3&height=90&section=header&text=PRESS%20START&fontSize=28&fontColor=ffffff&animation=blinking" width="100%"/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=14&duration=3000&color=FF69B4&center=true&vCenter=true&width=700&lines=Indie+Game+Developer;Godot+%7C+Unity+%7C+C%23;All+Assets+Handcrafted" />
 
 </div>
 
@@ -65,8 +67,11 @@ Typical components across projects include:
 
 ---
 
-## ▶ **Running a Project**
+<div align="center">
 
-Each game folder contains its own project files.
+🕹 *Built with code, coffee, and stubborn debugging.*
 
+<img src="https://capsule-render.vercel.app/api?type=rect&color=FF4FA3&height=90&section=footer&text=GAME%20OVER&fontSize=24&fontColor=ffffff"/>
+
+</div>
 For **Godot projects**:
